@@ -38,7 +38,6 @@ class Trainee(models.Model):
 
     @property
     def progress(self):
-
         progress_reports = ProgressReport.objects.filter(trainee=self)
         percentages = [report.attendance / 100.0 for report in progress_reports]
 
