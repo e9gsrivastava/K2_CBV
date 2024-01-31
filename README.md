@@ -5,7 +5,7 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/e9gsrivastava/k2.git
+    git clone https://github.com/e9gsrivastava/K2_CBV.git
     cd k2
     ```
 
