@@ -11,7 +11,7 @@ class Command(BaseCommand):
         self.generate_random_data()
 
     def generate_random_data(self):
-        User.objects.create_user(username="mentorr", password="mentor_passwordd")
+        User.objects.create_user(username="mentorrr", password="mentor_passwordd")
         trainee_names = ["Akbar", "Shivansh", "kunal", "Akash", "Gaurav"]
         trainees = []
 
