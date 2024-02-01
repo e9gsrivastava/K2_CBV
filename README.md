@@ -6,7 +6,6 @@
 
     ```bash
     git clone https://github.com/e9gsrivastava/K2_CBV.git
-    cd k2
     ```
 
 2. Create a virtual environment:
