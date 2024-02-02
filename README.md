@@ -28,31 +28,41 @@
         source venv/bin/activate
         ```
 
-4. Install dependencies:
+4.
+```
+cd K2_CBV
+```
+
+5. Install dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-5. Apply migrations:
+```
+cd k2
+```
+
+
+6. Apply migrations:
 
     ```bash
     python manage.py migrate
     ```
 
-6. Create a superuser (for admin access):
+7. Create a superuser (for admin access):
 
     ```bash
     python manage.py createsuperuser
     ```
 
-7. Run below command to generate random data:
+8. Run below command to generate random data:
 
     ```bash
     python manage.py utils
     ```
 
-8. Run the development server:
+9. Run the development server:
 
     ```bash
     python manage.py runserver
